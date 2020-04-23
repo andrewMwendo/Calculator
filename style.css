@@ -1,0 +1,58 @@
+:root {
+    --bWidth: 5vw;
+}
+
+body {
+    background-color: #303030;
+}
+
+#calculator {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+
+#display {
+    background-color: #181818;
+    border: 0px;
+    border-radius: var(--bWidth);
+    height: var(--bWidth);
+    width: var(--bWidth)*4;
+    text-align: right;
+    padding-right: 2vw;
+    font-size: 2rem;
+    font-family: monospace;
+    color: rgb(232, 230, 230);
+    user-select: none;
+}
+
+input[type=button] {
+    border-radius: 50%;
+    height: var(--bWidth);
+    width: var(--bWidth);
+    font-size: 2rem;
+    border: 0px;
+    font-family: monospace;
+}
+
+.numberButton {
+    background-color: #181818;
+    color: rgb(232, 230, 230);
+}
+
+.opButton {
+    background-color: rgb(177, 160, 160);
+    color: rgb(45, 15, 15);
+}
+
+#clearButton {
+    background-color: rgb(143, 39, 39);
+    color: rgb(232, 230, 230);
+}
+
+#dotButton {
+    background-color: rgb(177, 160, 160);
+    color: rgb(45, 15, 15); 
+}
